@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.MuiPaper-root.nav-bar {
+    background-color: white;
+}
+
+.MuiPaper-elevation {
+    padding-inline: 0 !important;
+}
+
+.MuiAccordion-root.accordian-box {
+    box-shadow: none;
+}
+
+.MuiAccordion-root.accordian-box:first-of-type {
+    border-radius: 0;
+    border-top: 1px solid #e0e0e0;
+}
+
+.MuiAccordion-root.accordian-box:last-of-type {
+    border-radius: 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.MuiAccordion-root.accordian-box .css-1umw9bq-MuiSvgIcon-root {
+    color: blue !important;
+}
+
+.MuiAccordion-root.accordian-box.Mui-expanded {
+    border-top: 1px solid #e0e0e0;
+}
+.check .MuiCheckbox-root{
+    padding-top: 1px;
+}
+.check{
+    align-items: start !important;
+}
+.check .MuiFormControlLabel-label{
+    font-size: 13px;
+}
+#calendar-select{
+    background-color: white !important;
+}
+.search fieldset{
+    border: none !important;
+}
